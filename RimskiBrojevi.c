@@ -88,6 +88,10 @@ int PrebaciBroj(char slovo)
     case 'I':
         broj = 1;
         break;
+    default:
+         printf("Niste unijeli mogući znak.\n");
+         exit(1);
+         break;
         }
 
         return broj;
