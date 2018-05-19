@@ -44,8 +44,8 @@ int PrebaciUArapske(char niz[])
         if(broj1 < broj2)
         i++;
             
-        final = Zbroji(broj);
-        rezultat +=final;
+        
+        rezultat +=broj;
     }
 
     return rezultat;
@@ -59,11 +59,7 @@ int Provjeri(int a, int b)
     else return a;
 }
 
-int Zbroji(int num)
-{
-    static int zbroj = 0;
-    return num+zbroj;
-}
+
 
 int PrebaciBroj(char slovo)
 {
