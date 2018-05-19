@@ -91,7 +91,6 @@ int PrebaciBroj(char slovo)
     default:
          printf("Niste unijeli mogući znak.\n");
          exit(1);
-         break;
         }
 
         return broj;
